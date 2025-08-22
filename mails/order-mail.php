@@ -23,7 +23,7 @@
 			$tel = $_POST['tel'];
 			
 			if ( isset( $_POST['shtory-order'] ) ) {
-				mail( "vasilyev-r@mail.ru", "Заявка с сайта «Плитный Маркет»", "
+				mail( "7928283@mail.ru, vasilyev-r@mail.ru", "Заявка с сайта «Плитный Маркет»", "
 					Клиент: " . $name ."\n
 					Телефон: " . $tel ."\n
 					Заявка со страницы штор."

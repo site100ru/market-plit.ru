@@ -26,7 +26,7 @@
 			$mes = $_POST['mes'];
 			
 			if ( isset( $_POST['shtory-order'] ) ) {
-				mail( "vasilyev-r@mail.ru", "Заявка на вызов замерщика с сайта «Плитный Маркет»", "
+				mail( "7928283@mail.ru, vasilyev-r@mail.ru", "Заявка на вызов замерщика с сайта «Плитный Маркет»", "
 					Клиент ".$name."\n
 					Телефон: ".$tel."\n
 					Адрес: ".$adr."\n

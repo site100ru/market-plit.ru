@@ -17,9 +17,9 @@ jobs:
           script: |
 
             # For first deploy
-            cd /var/www/u1538455/data/www/market-plit.ru/wp-content/themes/site100market-plit
+            # cd /var/www/u1538455/data/www/market-plit.ru/wp-content/themes/site100market-plit
             git clone https://github.com/site100ru/market-plit.ru.git .
             
             # For next deploys
-            # cd /var/www/u1538455/data/www/market-plit.ru/wp-content/themes/site100market-plit
-            # git pull
+            cd /var/www/u1538455/data/www/market-plit.ru/wp-content/themes/site100market-plit
+            git pull
